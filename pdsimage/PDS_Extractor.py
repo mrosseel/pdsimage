@@ -1,5 +1,4 @@
 # Import library
-from __future__ import print_function
 import numpy as np
 import pandas as pd
 import os
@@ -15,7 +14,7 @@ import requests
 
 
 class BinaryTable(object):
-    """ Class to read image binary file from the LRO experiment 
+    """ Class to read image binary file from the LRO experiment
 
     For the moment, it can gather information about the topography
     (from LRO LOLA experiment) and texture (from the LRO WAC
@@ -555,7 +554,7 @@ class BinaryTable(object):
             top right corner.
 
         Note:
-            All return coordinates are in degree        
+            All return coordinates are in degree
         '''
 
         # Passage en radian

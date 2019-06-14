@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  pdsimage:
+    container_name: pdsimage
+    build:
+      context: ./docker
+    image: mrosseel/pdsimage
+    volumes:
+      - .:/home/jovyan/work
+    ports:
+     - "8888:8888"
+    # command: "conda env create -f environment.yml && conda activate pdsimage && jupyter lab"

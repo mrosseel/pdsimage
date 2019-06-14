@@ -5,7 +5,7 @@ import os
 import sys
 
 # Load specific library
-from PDS_Extractor import *
+from . PDS_Extractor import *
 import numpy as np
 import pandas as pd
 import scipy.ndimage
